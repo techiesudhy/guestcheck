@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: ksudhy/siwebsite:v6
+      - image: ksudhy/website:v1
         name: guestbook-ui
         ports:
         - containerPort: 80
